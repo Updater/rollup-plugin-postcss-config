@@ -1,0 +1,18 @@
+{
+  "name": "rollup-plugin-postcss-config",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Updater/rollup-plugin-postcss-config.git"
+  },
+  "keywords": [
+    "rollup",
+    "postcss"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Updater/rollup-plugin-postcss-config/issues"
+  }
+}
