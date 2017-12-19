@@ -14,5 +14,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Updater/rollup-plugin-postcss-config/issues"
+  },
+  "devDependencies": {
+    "semantic-release": "^11.0.2",
+    "semantic-release-github-pr": "^1.1.3"
   }
 }
