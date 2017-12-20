@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-postcss-config",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Transform PostCSS in Rollup using options from a config file.",
   "main": "src/index.js",
   "repository": {
     "type": "git",
