@@ -3,7 +3,8 @@ const postcssrc = require('postcss-load-config');
 const { createFilter } = require('rollup-pluginutils');
 
 module.exports = function (options = {}) {
-  const filter = createFilter(options.include, options.exclude);
+  // https://github.com/rollup/rollup-pluginutils#createfilter
+  const filter = createFilter(options.include || '*.css', options.exclude);
   const config = postcssrc();
 
   return {
