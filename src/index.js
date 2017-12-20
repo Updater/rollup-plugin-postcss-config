@@ -8,6 +8,7 @@ module.exports = function (options = {}) {
   const config = postcssrc();
 
   return {
+    name: 'postcss-config',
     transform: (code, id) => {
       if (!filter(id)) return;
 
