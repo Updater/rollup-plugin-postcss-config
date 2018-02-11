@@ -14,7 +14,7 @@ module.exports = function (options = {}) {
 
       return config
         .then(({ plugins, options }) =>
-          postcss(plugins).process(code, options),
+          postcss(plugins).process(code, { from: id, ...options }),
           console.error,
         )
         .then(({ css: code, map }) =>
