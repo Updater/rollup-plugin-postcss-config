@@ -20,7 +20,7 @@
     "url": "https://github.com/Updater/rollup-plugin-postcss-config/issues"
   },
   "dependencies": {
-    "postcss": "^6.0.14",
+    "postcss": "^7.0.36",
     "postcss-load-config": "^1.2.0",
     "rollup-pluginutils": "^2.0.1"
   },
